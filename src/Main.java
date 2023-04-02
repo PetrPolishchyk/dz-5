@@ -14,8 +14,7 @@ public class Main {
 
         //print the comparison of the sums
         System.out.println("Is the first sum bigger than second sum?");
-        String comparison = String.valueOf(firstCouple > secondCouple);
-        System.out.println(comparison);
+        System.out.println(firstCouple > secondCouple);
 
         //changing of sums
         firstCouple++;
@@ -23,13 +22,11 @@ public class Main {
 
         //print the comparison again
         System.out.println("Is the first sum bigger than second sum after changing?");
-        comparison = String.valueOf(firstCouple > secondCouple);
-        System.out.println(comparison);
+        System.out.println(firstCouple > secondCouple);
 
         //print true if one of the sums %2
         System.out.println("Is any of the sums multiple 2?");
-        String result = String.valueOf(firstCouple % 2 == 0 || secondCouple % 2 == 0 ? true : false);
-        System.out.println(result);
+        System.out.println(firstCouple % 2 == 0 || secondCouple % 2 == 0);
 
     }
 }
